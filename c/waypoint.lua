@@ -54,8 +54,9 @@ Citizen.CreateThread(function()
         if waypoint then
             local playerCoords = GetEntityCoords(PlayerPedId())
             local distance = #(playerCoords - waypoint)
-            
-            if distance > minDistance then
+            local uiapp = GetUiappCurrentActivityByHash(`Map`)
+                
+            if distance > minDistance and uiapp == GetHashKey("Map") then
                 local isVisible, screenX, screenY = GetScreenCoordFromWorldCoord(waypoint.x, waypoint.y, waypoint.z)
                 
                 if isVisible then
