@@ -16,7 +16,7 @@ A sleek and performant waypoint indicator system that shows a dynamic 3D marker 
 - No external dependencies required 📦
 
 ## Preview
-![Video Preview](https://youtu.be/OyLcVwynbtI)
+[Video Preview](https://youtu.be/OyLcVwynbtI)
 
 ## Installation 🛠️
 1. Download the resource
