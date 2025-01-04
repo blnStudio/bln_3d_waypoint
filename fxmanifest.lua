@@ -4,15 +4,10 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 author 'BLN Studio <bln.tebex.io>'
 description 'A sleek and performant waypoint indicator system that shows a dynamic 3D marker pointing to your destination.'
-version '1.0.0'
+version '2.0.0'
 
 client_scripts {
     'c/*.lua'
 }
 
-ui_page 'ui/index.html'
-
-files {
-    'ui/index.html',
-    'ui/images/*.png'
-}
+shared_script 'config.lua'
