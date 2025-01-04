@@ -102,22 +102,16 @@ Citizen.CreateThread(function()
         
         if isEnabled and destination then
             local playerCoords = GetEntityCoords(PlayerPedId())
-<<<<<<< HEAD
             local distance = #(playerCoords - destination)
+
+            local uiapp = GetUiappCurrentActivityByHash(`Map`)
             
-            if distance > Config.display.minDistance then
+            if distance > Config.display.minDistance  and uiapp == GetHashKey("Map") then
                 local isVisible, screenX, screenY = GetScreenCoordFromWorldCoord(
                     destination.x, 
                     destination.y, 
                     destination.z
                 )
-=======
-            local distance = #(playerCoords - waypoint)
-            local uiapp = GetUiappCurrentActivityByHash(`Map`)
-                
-            if distance > minDistance and uiapp == GetHashKey("Map") then
-                local isVisible, screenX, screenY = GetScreenCoordFromWorldCoord(waypoint.x, waypoint.y, waypoint.z)
->>>>>>> 5abfa5450a6b32fe81c044c0eab95e22c5a5504f
                 
                 if isVisible then
                     if customDestination then
@@ -139,7 +133,6 @@ Citizen.CreateThread(function()
         end
     end
 end)
-<<<<<<< HEAD
 
 
 
@@ -155,5 +148,3 @@ RegisterNetEvent('waypointIndicator:removeDestination')
 AddEventHandler('waypointIndicator:removeDestination', function()
     RemoveCustomDestination()
 end)
-=======
->>>>>>> 5abfa5450a6b32fe81c044c0eab95e22c5a5504f
