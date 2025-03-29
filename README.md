@@ -7,6 +7,11 @@
 
 A sleek and performant waypoint indicator system that shows a dynamic 3D marker pointing to your destination.
 
+[![](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/OyLcVwynbtI)
+[![Discord](https://img.shields.io/badge/Discord-1111?style=flat&logo=discord&logoColor=white&color=7289da)](https://discord.bln-studio.com/)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/blnStudio/bln_3d_waypoint)
+![License](https://img.shields.io/github/license/blnStudio/bln_3d_waypoint)
+
 ## Features ⭐
 - Real-time 3D position tracking 🎮
 - Dynamic distance indicator 📏
@@ -16,9 +21,6 @@ A sleek and performant waypoint indicator system that shows a dynamic 3D marker 
 - Configurable blip styles and colors 🎨
 - Performance optimized 🚀
 - No external dependencies required 📦
-
-## Preview
-[Video Preview](https://youtu.be/OyLcVwynbtI)
 
 ## Installation 🛠️
 1. Download the resource
